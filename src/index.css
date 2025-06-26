@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input{
+    @apply border shadow-inner py-2 px-2 text-gray-700 w-full;
+}
+.input:focus{
+    @apply ring-blue-500;
+}
+
+.bg_color{
+    background-color: #F2FFFC;
+}
+
+.bg_side{
+    background-color: rgba(40, 199, 162, 0.19);
+}
+
+.bg_green_light{
+    background-color: #CFF7D3;
+}
+.color_green_light{
+    color: #CFF7D3;
+}
+.bg_gray_light{
+    background-color: #FBFDFE;
+}
+.color_gray_light{
+    color: #FBFDFE;
+}
+.bg_green{
+    background-color: #28C7A2;
+}
+.color_green{
+    color: #28C7A2;
+}
+
+.bg_purple_light{
+    background-color: #F1E5FF;
+}
+.color_purple_light{
+    color: #F1E5FF;
+}
+.bg_hover_menu{
+    background-color: #3B947F;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}
